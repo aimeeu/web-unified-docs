@@ -5,7 +5,7 @@
 # in the issue form
 
 policy:
-  - template: [1-bug-report.yml, 1-feature-request.yml]
+  - template: [ bug-report.yml, feature-request.yml]
     section:
       - id: [product]
         label:
