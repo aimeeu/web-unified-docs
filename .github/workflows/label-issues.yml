@@ -12,7 +12,7 @@
 name: Issue labeler
 on:
   issues:
-    types: [ opened, edited]
+    types: [ opened, edited ]
 
 jobs:
   label-issues-policy:
