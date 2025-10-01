@@ -10,6 +10,7 @@ policy:
   - template: [ bug-report.yml, feature-request.yml]
     section:
       - id: [product]
+        block-list: ['Select a product']
         label:
           - name: 'Boundary'
             keys: ['Boundary']

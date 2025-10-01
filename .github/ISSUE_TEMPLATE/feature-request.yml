@@ -12,6 +12,7 @@ body:
       label: Product
       description: What documentation is this for?
       options:
+        - Select a product
         - Boundary
         - Consul
         - HCP
