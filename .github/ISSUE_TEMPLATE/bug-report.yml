@@ -1,7 +1,7 @@
 name: Bug Report
 description: |-
   Create an issue for incorrect content or content that should be there but is not.
-title: "[Bug]: "
+title: "[Content Bug]: "
 body:
   - type: markdown
     attributes:
@@ -32,7 +32,7 @@ body:
       label: Which page?
       description: The page URL
       placeholder: https://developer.hashicorp.com/
-      value: "A bug happened!"
+      value: "https://developer.hashicorp.com/..."
     validations:
       required: true
   - type: textarea
@@ -41,6 +41,6 @@ body:
       label: What is the issue?
       description: Describe the issue - what content is incorrect? 
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: "Something is not quite right with the content...
     validations:
       required: true
