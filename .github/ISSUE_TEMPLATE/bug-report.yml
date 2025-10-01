@@ -23,8 +23,8 @@ body:
         - Vagrant
         - Vault
         - Well-Architected Framework
-        - None
-        - Other
+        - No product
+        - Other product
       default: 6
     validations:
       required: true

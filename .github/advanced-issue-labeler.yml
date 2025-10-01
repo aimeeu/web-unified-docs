@@ -32,5 +32,5 @@ policy:
           - name: 'WAF'
             keys: ['Well-Architected Framework']
           - name: 'Triage'
-            keys: ['None', 'Other']
+            keys: ['No product', 'Other product']
    
