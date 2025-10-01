@@ -13,7 +13,6 @@ body:
       label: Product
       description: What documentation is this for?
       options:
-        - Select a product
         - Boundary
         - Consul
         - HCP
@@ -24,7 +23,9 @@ body:
         - Vagrant
         - Vault
         - Well-Architected Framework
-      default: 0
+        - None
+        - Other
+      default: 6
     validations:
       required: true
   - type: input
