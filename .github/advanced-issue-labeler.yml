@@ -26,6 +26,8 @@ policy:
             keys: ['Sentinel']
           - name: 'Terraform CE'
             keys: ['Terraform']
+          - name: 'Vagrant'
+            keys: ['Vagrant'] 
           - name: 'Vault'
             keys: ['Vault'] 
           - name: 'WAF'
