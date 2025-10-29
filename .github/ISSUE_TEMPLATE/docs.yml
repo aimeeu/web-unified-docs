@@ -1,16 +1,20 @@
 name: Documentation Issue
-description: HashiCorp Cloud Platform, HCP Waypoint, Sentinel, Well-Architected Framework
+description: |-
+  HCP Waypoint, Sentinel, Well-Architected Framework, HashiCorp Cloud Platform (Admin/CLI/IAM/Network/Security)
 title: "[Content Request]: "
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this documentation issue!
+        Create a descriptive title.
   - type: dropdown
     id: product
     attributes:
       label: Product
-      description: What documentation is this for?
+      description: |-
+        What product content is this for? If you do not see your product in the
+        pick list, click the **Cancel** button to close this window. Then click
+        the **New Issue** button. Finally, click the link to the correct product repository.
       options:
         - HashiCorp Cloud Platform     
         - HCP CLI
@@ -19,7 +23,7 @@ body:
         - Well-Architected Framework        
         - Other product
         - No product
-      default: 1
+      default: 0
     validations:
       required: true
   - type: textarea
