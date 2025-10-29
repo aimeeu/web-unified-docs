@@ -7,7 +7,7 @@
  
 
 policy:
-  - template: [ bug-report.yml, feature-request.yml]
+  - template: [ docs.yml]
     section:
       - id: [product]
         label:
@@ -16,7 +16,7 @@ policy:
           - name: 'Consul'
             keys: ['Consul']
           - name: 'HCP'
-            keys: ['HCP']
+            keys: ['HashiCorp Cloud Platform', 'HCP CLI']
           - name: 'Nomad'
             keys: ['Nomad']
           - name: 'Packer'
@@ -31,6 +31,8 @@ policy:
             keys: ['Vault'] 
           - name: 'WAF'
             keys: ['Well-Architected Framework']
+          - name: 'Waypoint'
+            keys: ['HCP Waypoint']
           - name: 'Triage'
             keys: ['No product', 'Other product']
    

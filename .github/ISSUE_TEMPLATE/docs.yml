@@ -1,37 +1,32 @@
-name: Documentation Request
-description: Request new or updated documentation.
+name: Documentation Issue
+description: HashiCorp Cloud Platform, HCP Waypoint, Sentinel, Well-Architected Framework
 title: "[Content Request]: "
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this documentation feature request!
+        Thanks for taking the time to fill out this documentation issue!
   - type: dropdown
     id: product
     attributes:
       label: Product
       description: What documentation is this for?
       options:
-        - Boundary
-        - Consul
-        - HCP
-        - Nomad
-        - Packer
+        - HashiCorp Cloud Platform     
+        - HCP CLI
+        - HCP Waypoint
         - Sentinel
-        - Terraform
-        - Vagrant
-        - Vault
-        - Well-Architected Framework
+        - Well-Architected Framework        
         - Other product
         - No product
-      default: 6
+      default: 1
     validations:
       required: true
   - type: textarea
     id: what
     attributes:
       label: |-
-        What would you like us to document? Be specific and provide as much detail as possible.
+        What content updates would you like us to do? Be specific and provide as much detail as possible.
       description: 
       placeholder: Please document how to... 
       value: "Please document how to..."
