@@ -27,7 +27,7 @@ body:
         - Well-Architected Framework        
         - Other product
         - No product
-      default: 0
+      default: 6
     validations:
       required: true
   - type: textarea
