@@ -40,8 +40,8 @@ body:
         - Documentation
         - Tutorial
       default: 0
-      validations:
-        required: true
+    validations:
+      required: true
   - type: dropdown
     id: issueType
     attributes:
@@ -53,8 +53,8 @@ body:
         - New content
         - Other
       default: 0
-      validations:
-        required: false
+    validations:
+      required: false
   - type: textarea
     id: what
     attributes:
