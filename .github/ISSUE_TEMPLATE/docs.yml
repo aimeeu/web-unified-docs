@@ -30,6 +30,31 @@ body:
       default: 6
     validations:
       required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Issue category
+      description: |-
+        Documentation or tutorial issue?
+      options:
+        - Documentation
+        - Tutorial
+      default: 0
+      validations:
+        required: true
+  - type: dropdown
+    id: issueType
+    attributes:
+      label: Issue type
+      description: |-
+        Bug (site is broken or instructions do not work) or new content request?
+      options:
+        - Bug
+        - New content
+        - Other
+      default: 0
+      validations:
+        required: false
   - type: textarea
     id: what
     attributes:
