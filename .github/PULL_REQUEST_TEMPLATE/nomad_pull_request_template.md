@@ -5,6 +5,8 @@ Make sure you create your PR against the correct **base** branch. Refer to
 GitHub's Change the branch range and destination repository guide (https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#changing-the-branch-range-and-destination-repository) for how to
 select the base branch when creating a pull request.
 
+<a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#changing-the-branch-range-and-destination-repository" target=new>Change the branch range and destination repository guide</a>
+
 If your content is an update to:
 
 - Currently published content
