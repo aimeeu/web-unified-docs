@@ -44,7 +44,6 @@ HCP:
         'content/hcp-docs/**'
       ]
 
-
 # Add 'Nomad' label to changes under 'content/nomad'
 #
 # Label           | Rule
