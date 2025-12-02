@@ -44,6 +44,19 @@ HCP:
         'content/hcp-docs/**'
       ]
 
+# Add 'Nomad' label to changes under 'content/nomad'
+#
+# Label           | Rule
+# --------------- | ------------------------------------------------------------
+# Nomad          | Default; applies to all doc updates
+
+Nomad:
+- any:
+  - changed-files:
+    - any-glob-to-any-file: [
+        'content/nomad/**'
+      ]
+
 # Add 'Packer' label to changes under 'content/packer'
 #
 # Label           | Rule
