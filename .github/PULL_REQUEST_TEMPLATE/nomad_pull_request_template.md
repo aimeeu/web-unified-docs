@@ -23,8 +23,8 @@ If your content is an update to:
   - Add the "do not merge" label.
   - Convert the PR to a DRAFT.
 
-  Education reviewers will coordinate with Nomad release engineering and update
-  the base branch when the code is slotted into an upcoming release.
+  Aimee coordinates with Nomad engineering and updates
+  the docs PR base branch when the code is slotted into an upcoming release.
 
 **Backports**
 
