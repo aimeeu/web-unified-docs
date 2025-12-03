@@ -17,6 +17,14 @@ If your content is an update to:
   release branches use the `nomad/<exact-release-number>` format. If you are not
   able to find the upcoming Nomad release branch that you are looking for,
   contact the tech writer that works with the Nomad team.
+- Upcoming Nomad release but not sure which one
+
+  - Choose the `main` branch.
+  - Add the "do not merge" label.
+  - Convert the PR to a DRAFT.
+
+  Education reviewers will coordinate with Nomad release engineering and update
+  the base branch when the code is slotted into an upcoming release.
 
 **Backports**
 
@@ -24,25 +32,33 @@ This repo stores previous version docs in folders instead of branches. There are
 no backport labels.  If you backported your code PR to previous branches, update
 the docs content in the corresponding folders. For example, if the current
 release is 1.10.x and you backported your code to 1.9.x and 1.8.x, update the docs content
-in the v1.10.x, v1.9.x, and v1.8.x folders.
+in the v1.10.x, v1.9.x, and v1.8.x folders. If you can't find files in previous versions,
+add a note in the description so that the tech writer can update previous versions.
+
 -->
 
 ## Description
 
 <!-- Please describe why you're making this change and point out any important details the reviewers
-should be aware of. 
+should be aware of. A robust description helps Aimee create a fabulous release note.
 
 Include the target release as well as prior versions if applicable.
 -->
 
 ## Links
 <!--
+**Please link to the related Nomad repo code PR!** if there is one. 
+Aimee does look at the code PR description, Jira ticket, and/or GH issue before reviewing docs content.
+
 Please include links to GitHub issues, documentation, or similar which is relevant to this PR. If
 this is a bug fix, please ensure related issues are linked so they will close when this PR is
 merged.
 
-Jira: [<jira-ticket-number>]  // for example, Jira: [CE-1001] GH-Jira integration generates the link and updates the Jira ticket.
+// GH-Jira integration generates the link and updates the Jira ticket.
+Jira: [<jira-ticket-number>]  // for example, Jira: [NMD-1234] 
+
 GitHub Issue: <issue-link>
+
 Deploy previews:
 
 The bot does publish a root-level link to the deploy preview, 
