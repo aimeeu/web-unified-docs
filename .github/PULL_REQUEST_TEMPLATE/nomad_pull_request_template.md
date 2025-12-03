@@ -39,8 +39,11 @@ add a note in the description so that the tech writer can update previous versio
 
 ## Description
 
-<!-- Please describe why you're making this change and point out any important details the reviewers
+<!-- 
+Please describe why you're making this change and point out any important details the reviewers
 should be aware of. A robust description helps Aimee create a fabulous release note.
+If your code PR has a fantastic description, link to the code PR in the links section so that
+Aimee can update this PR's description. 
 
 Include the target release as well as prior versions if applicable.
 -->
@@ -50,8 +53,8 @@ Include the target release as well as prior versions if applicable.
 **Please link to the related Nomad repo code PR!** if there is one. 
 Aimee does look at the code PR description, Jira ticket, and/or GH issue before reviewing docs content.
 
-Please include links to GitHub issues, documentation, or similar which is relevant to this PR. If
-this is a bug fix, please ensure related issues are linked so they will close when this PR is
+Include links to GitHub issues, documentation, or similar which is relevant to this PR. If
+this is a docs bug fix, please ensure related issues are linked so they will close when this PR is
 merged.
 
 // GH-Jira integration generates the link and updates the Jira ticket.
